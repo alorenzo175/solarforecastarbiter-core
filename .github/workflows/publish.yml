@@ -10,8 +10,6 @@ jobs:
     if: github.repository == 'alorenzo175/solarforecastarbiter-core'
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch_depth: 0
       - name: Setup python
         uses: actions/setup-python@v2
         with:
